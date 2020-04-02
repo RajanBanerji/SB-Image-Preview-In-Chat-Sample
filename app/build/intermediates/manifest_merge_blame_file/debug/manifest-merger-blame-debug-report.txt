@@ -1,0 +1,247 @@
+1<?xml version="1.0" encoding="utf-8"?>
+2<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+3    package="com.example.testappsyncmanager"
+4    android:versionCode="1"
+5    android:versionName="1.0" >
+6
+7    <uses-sdk
+8        android:minSdkVersion="23"
+8-->/Users/rajanbanerjee/Downloads/byme 2 9/app/src/main/AndroidManifest.xml
+9        android:targetSdkVersion="29" />
+9-->/Users/rajanbanerjee/Downloads/byme 2 9/app/src/main/AndroidManifest.xml
+10
+11    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+11-->/Users/rajanbanerjee/Downloads/byme 2 9/app/src/main/AndroidManifest.xml:5:5-81
+11-->/Users/rajanbanerjee/Downloads/byme 2 9/app/src/main/AndroidManifest.xml:5:22-78
+12    <uses-permission android:name="android.permission.INTERNET" />
+12-->/Users/rajanbanerjee/Downloads/byme 2 9/app/src/main/AndroidManifest.xml:6:5-67
+12-->/Users/rajanbanerjee/Downloads/byme 2 9/app/src/main/AndroidManifest.xml:6:22-64
+13    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+13-->/Users/rajanbanerjee/Downloads/byme 2 9/app/src/main/AndroidManifest.xml:7:5-80
+13-->/Users/rajanbanerjee/Downloads/byme 2 9/app/src/main/AndroidManifest.xml:7:22-77
+14    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+14-->[com.sendbird.sdk:sendbird-syncmanager:1.1.7] /Users/rajanbanerjee/.gradle/caches/transforms-2/files-2.1/eae02c76769a5c9dd8e20b529a8846c1/jetified-sendbird-syncmanager-1.1.7/AndroidManifest.xml:14:5-79
+14-->[com.sendbird.sdk:sendbird-syncmanager:1.1.7] /Users/rajanbanerjee/.gradle/caches/transforms-2/files-2.1/eae02c76769a5c9dd8e20b529a8846c1/jetified-sendbird-syncmanager-1.1.7/AndroidManifest.xml:14:22-76
+15    <uses-permission android:name="android.permission.WAKE_LOCK" />
+15-->[com.google.firebase:firebase-measurement-connector-impl:17.0.2] /Users/rajanbanerjee/.gradle/caches/transforms-2/files-2.1/7530ddf1a63ec596b6f5092643e19de9/jetified-firebase-measurement-connector-impl-17.0.2/AndroidManifest.xml:24:5-68
+15-->[com.google.firebase:firebase-measurement-connector-impl:17.0.2] /Users/rajanbanerjee/.gradle/caches/transforms-2/files-2.1/7530ddf1a63ec596b6f5092643e19de9/jetified-firebase-measurement-connector-impl-17.0.2/AndroidManifest.xml:24:22-65
+16    <uses-permission android:name="com.google.android.finsky.permission.BIND_GET_INSTALL_REFERRER_SERVICE" /> <!-- Required by older versions of Google Play services to create IID tokens -->
+16-->[com.google.firebase:firebase-analytics:16.0.4] /Users/rajanbanerjee/.gradle/caches/transforms-2/files-2.1/3dde28301494f86451d3a5b2b41a2eeb/jetified-firebase-analytics-16.0.4/AndroidManifest.xml:26:5-110
+16-->[com.google.firebase:firebase-analytics:16.0.4] /Users/rajanbanerjee/.gradle/caches/transforms-2/files-2.1/3dde28301494f86451d3a5b2b41a2eeb/jetified-firebase-analytics-16.0.4/AndroidManifest.xml:26:22-107
+17    <uses-permission android:name="com.google.android.c2dm.permission.RECEIVE" />
+17-->[com.google.firebase:firebase-iid:20.0.0] /Users/rajanbanerjee/.gradle/caches/transforms-2/files-2.1/379e6fd7b9f7b75d565517c985b1d207/firebase-iid-20.0.0/AndroidManifest.xml:26:5-82
+17-->[com.google.firebase:firebase-iid:20.0.0] /Users/rajanbanerjee/.gradle/caches/transforms-2/files-2.1/379e6fd7b9f7b75d565517c985b1d207/firebase-iid-20.0.0/AndroidManifest.xml:26:22-79
+18
+19    <application
+19-->/Users/rajanbanerjee/Downloads/byme 2 9/app/src/main/AndroidManifest.xml:9:5-41:19
+20        android:name="com.example.testappsyncmanager.BaseApplication"
+20-->/Users/rajanbanerjee/Downloads/byme 2 9/app/src/main/AndroidManifest.xml:10:9-40
+21        android:allowBackup="true"
+21-->/Users/rajanbanerjee/Downloads/byme 2 9/app/src/main/AndroidManifest.xml:11:9-35
+22        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
+22-->[androidx.core:core:1.0.1] /Users/rajanbanerjee/.gradle/caches/transforms-2/files-2.1/7af9464903b8a503017df0a97e0258a2/core-1.0.1/AndroidManifest.xml:22:18-86
+23        android:debuggable="true"
+24        android:icon="@mipmap/ic_launcher"
+24-->/Users/rajanbanerjee/Downloads/byme 2 9/app/src/main/AndroidManifest.xml:12:9-43
+25        android:label="@string/app_name"
+25-->/Users/rajanbanerjee/Downloads/byme 2 9/app/src/main/AndroidManifest.xml:13:9-41
+26        android:roundIcon="@mipmap/ic_launcher_round"
+26-->/Users/rajanbanerjee/Downloads/byme 2 9/app/src/main/AndroidManifest.xml:14:9-54
+27        android:supportsRtl="true"
+27-->/Users/rajanbanerjee/Downloads/byme 2 9/app/src/main/AndroidManifest.xml:15:9-35
+28        android:theme="@style/AppTheme" >
+28-->/Users/rajanbanerjee/Downloads/byme 2 9/app/src/main/AndroidManifest.xml:16:9-40
+29        <activity android:name="com.example.testappsyncmanager.ui.MainActivity" />
+29-->/Users/rajanbanerjee/Downloads/byme 2 9/app/src/main/AndroidManifest.xml:17:9-53
+29-->/Users/rajanbanerjee/Downloads/byme 2 9/app/src/main/AndroidManifest.xml:17:19-50
+30        <activity android:name="com.example.testappsyncmanager.ui.openchat.OpenChatActivity" />
+30-->/Users/rajanbanerjee/Downloads/byme 2 9/app/src/main/AndroidManifest.xml:18:9-66
+30-->/Users/rajanbanerjee/Downloads/byme 2 9/app/src/main/AndroidManifest.xml:18:19-63
+31        <activity android:name="com.example.testappsyncmanager.ui.openchat.OpenChatListActivity" />
+31-->/Users/rajanbanerjee/Downloads/byme 2 9/app/src/main/AndroidManifest.xml:19:9-70
+31-->/Users/rajanbanerjee/Downloads/byme 2 9/app/src/main/AndroidManifest.xml:19:19-67
+32        <activity android:name="com.example.testappsyncmanager.ui.SelectChatTypeActivity" />
+32-->/Users/rajanbanerjee/Downloads/byme 2 9/app/src/main/AndroidManifest.xml:20:9-63
+32-->/Users/rajanbanerjee/Downloads/byme 2 9/app/src/main/AndroidManifest.xml:20:19-60
+33        <activity
+33-->/Users/rajanbanerjee/Downloads/byme 2 9/app/src/main/AndroidManifest.xml:21:9-30:20
+34            android:name="com.example.testappsyncmanager.ui.login.LoginActivity"
+34-->/Users/rajanbanerjee/Downloads/byme 2 9/app/src/main/AndroidManifest.xml:22:13-51
+35            android:label="@string/app_name"
+35-->/Users/rajanbanerjee/Downloads/byme 2 9/app/src/main/AndroidManifest.xml:23:13-45
+36            android:theme="@style/AppTheme.NoActionBar" >
+36-->/Users/rajanbanerjee/Downloads/byme 2 9/app/src/main/AndroidManifest.xml:24:13-56
+37            <intent-filter>
+37-->/Users/rajanbanerjee/Downloads/byme 2 9/app/src/main/AndroidManifest.xml:25:13-29:29
+38                <action android:name="android.intent.action.MAIN" />
+38-->/Users/rajanbanerjee/Downloads/byme 2 9/app/src/main/AndroidManifest.xml:26:17-69
+38-->/Users/rajanbanerjee/Downloads/byme 2 9/app/src/main/AndroidManifest.xml:26:25-66
+39
+40                <category android:name="android.intent.category.LAUNCHER" />
+40-->/Users/rajanbanerjee/Downloads/byme 2 9/app/src/main/AndroidManifest.xml:28:17-77
+40-->/Users/rajanbanerjee/Downloads/byme 2 9/app/src/main/AndroidManifest.xml:28:27-74
+41            </intent-filter>
+42        </activity>
+43        <activity android:name="com.example.testappsyncmanager.ui.groupchat.CloseGroupChatActivity" />
+43-->/Users/rajanbanerjee/Downloads/byme 2 9/app/src/main/AndroidManifest.xml:31:9-73
+43-->/Users/rajanbanerjee/Downloads/byme 2 9/app/src/main/AndroidManifest.xml:31:19-70
+44        <activity android:name="com.example.testappsyncmanager.ui.groupchat.CloseGroupChatListActivity" />
+44-->/Users/rajanbanerjee/Downloads/byme 2 9/app/src/main/AndroidManifest.xml:32:9-77
+44-->/Users/rajanbanerjee/Downloads/byme 2 9/app/src/main/AndroidManifest.xml:32:19-74
+45        <activity android:name="com.example.testappsyncmanager.ui.groupchat.CreateNewCloseGroupChannelActivity" />
+45-->/Users/rajanbanerjee/Downloads/byme 2 9/app/src/main/AndroidManifest.xml:33:9-85
+45-->/Users/rajanbanerjee/Downloads/byme 2 9/app/src/main/AndroidManifest.xml:33:19-82
+46        <activity android:name="com.example.testappsyncmanager.ui.openchat.ShowImageActivity" />
+46-->/Users/rajanbanerjee/Downloads/byme 2 9/app/src/main/AndroidManifest.xml:34:9-67
+46-->/Users/rajanbanerjee/Downloads/byme 2 9/app/src/main/AndroidManifest.xml:34:19-64
+47
+48        <service android:name="com.example.testappsyncmanager.services.ChatFirebaseMessagingService" >
+48-->/Users/rajanbanerjee/Downloads/byme 2 9/app/src/main/AndroidManifest.xml:36:9-40:19
+48-->/Users/rajanbanerjee/Downloads/byme 2 9/app/src/main/AndroidManifest.xml:36:18-71
+49            <intent-filter>
+49-->/Users/rajanbanerjee/Downloads/byme 2 9/app/src/main/AndroidManifest.xml:37:13-39:29
+50                <action android:name="com.google.firebase.MESSAGING_EVENT" />
+50-->/Users/rajanbanerjee/Downloads/byme 2 9/app/src/main/AndroidManifest.xml:38:17-78
+50-->/Users/rajanbanerjee/Downloads/byme 2 9/app/src/main/AndroidManifest.xml:38:25-75
+51            </intent-filter>
+52        </service>
+53        <!--
+54             FirebaseMessagingService performs security checks at runtime,
+55             but set to not exported to explicitly avoid allowing another app to call it.
+56        -->
+57        <service
+57-->[com.google.firebase:firebase-messaging:20.0.0] /Users/rajanbanerjee/.gradle/caches/transforms-2/files-2.1/05b0a9849db77698a8efccb87e026f2e/jetified-firebase-messaging-20.0.0/AndroidManifest.xml:28:9-34:19
+58            android:name="com.google.firebase.messaging.FirebaseMessagingService"
+58-->[com.google.firebase:firebase-messaging:20.0.0] /Users/rajanbanerjee/.gradle/caches/transforms-2/files-2.1/05b0a9849db77698a8efccb87e026f2e/jetified-firebase-messaging-20.0.0/AndroidManifest.xml:29:13-82
+59            android:exported="false" >
+59-->[com.google.firebase:firebase-messaging:20.0.0] /Users/rajanbanerjee/.gradle/caches/transforms-2/files-2.1/05b0a9849db77698a8efccb87e026f2e/jetified-firebase-messaging-20.0.0/AndroidManifest.xml:30:13-37
+60            <intent-filter android:priority="-500" >
+60-->/Users/rajanbanerjee/Downloads/byme 2 9/app/src/main/AndroidManifest.xml:37:13-39:29
+61                <action android:name="com.google.firebase.MESSAGING_EVENT" />
+61-->/Users/rajanbanerjee/Downloads/byme 2 9/app/src/main/AndroidManifest.xml:38:17-78
+61-->/Users/rajanbanerjee/Downloads/byme 2 9/app/src/main/AndroidManifest.xml:38:25-75
+62            </intent-filter>
+63        </service>
+64
+65        <provider
+65-->[com.sendbird.sdk:sendbird-android-sdk:3.0.106] /Users/rajanbanerjee/.gradle/caches/transforms-2/files-2.1/6ef81883880eba1c74816c4cffce43a4/sendbird-android-sdk-3.0.106/AndroidManifest.xml:12:9-16:39
+66            android:name="com.sendbird.android.SendBirdInitProvider"
+66-->[com.sendbird.sdk:sendbird-android-sdk:3.0.106] /Users/rajanbanerjee/.gradle/caches/transforms-2/files-2.1/6ef81883880eba1c74816c4cffce43a4/sendbird-android-sdk-3.0.106/AndroidManifest.xml:13:13-69
+67            android:authorities="com.example.testappsyncmanager.sendbirdinitprovider"
+67-->[com.sendbird.sdk:sendbird-android-sdk:3.0.106] /Users/rajanbanerjee/.gradle/caches/transforms-2/files-2.1/6ef81883880eba1c74816c4cffce43a4/sendbird-android-sdk-3.0.106/AndroidManifest.xml:14:13-72
+68            android:exported="false"
+68-->[com.sendbird.sdk:sendbird-android-sdk:3.0.106] /Users/rajanbanerjee/.gradle/caches/transforms-2/files-2.1/6ef81883880eba1c74816c4cffce43a4/sendbird-android-sdk-3.0.106/AndroidManifest.xml:15:13-37
+69            android:initOrder="100" />
+69-->[com.sendbird.sdk:sendbird-android-sdk:3.0.106] /Users/rajanbanerjee/.gradle/caches/transforms-2/files-2.1/6ef81883880eba1c74816c4cffce43a4/sendbird-android-sdk-3.0.106/AndroidManifest.xml:16:13-36
+70
+71        <service
+71-->[com.google.firebase:firebase-measurement-connector-impl:17.0.2] /Users/rajanbanerjee/.gradle/caches/transforms-2/files-2.1/7530ddf1a63ec596b6f5092643e19de9/jetified-firebase-measurement-connector-impl-17.0.2/AndroidManifest.xml:27:9-31:19
+72            android:name="com.google.firebase.components.ComponentDiscoveryService"
+72-->[com.google.firebase:firebase-measurement-connector-impl:17.0.2] /Users/rajanbanerjee/.gradle/caches/transforms-2/files-2.1/7530ddf1a63ec596b6f5092643e19de9/jetified-firebase-measurement-connector-impl-17.0.2/AndroidManifest.xml:27:18-89
+73            android:exported="false" >
+73-->[com.google.firebase:firebase-iid:20.0.0] /Users/rajanbanerjee/.gradle/caches/transforms-2/files-2.1/379e6fd7b9f7b75d565517c985b1d207/firebase-iid-20.0.0/AndroidManifest.xml:31:13-37
+74            <meta-data
+74-->[com.google.firebase:firebase-measurement-connector-impl:17.0.2] /Users/rajanbanerjee/.gradle/caches/transforms-2/files-2.1/7530ddf1a63ec596b6f5092643e19de9/jetified-firebase-measurement-connector-impl-17.0.2/AndroidManifest.xml:28:13-30:85
+75                android:name="com.google.firebase.components:com.google.firebase.analytics.connector.internal.AnalyticsConnectorRegistrar"
+75-->[com.google.firebase:firebase-measurement-connector-impl:17.0.2] /Users/rajanbanerjee/.gradle/caches/transforms-2/files-2.1/7530ddf1a63ec596b6f5092643e19de9/jetified-firebase-measurement-connector-impl-17.0.2/AndroidManifest.xml:29:17-139
+76                android:value="com.google.firebase.components.ComponentRegistrar" />
+76-->[com.google.firebase:firebase-measurement-connector-impl:17.0.2] /Users/rajanbanerjee/.gradle/caches/transforms-2/files-2.1/7530ddf1a63ec596b6f5092643e19de9/jetified-firebase-measurement-connector-impl-17.0.2/AndroidManifest.xml:30:17-82
+77            <meta-data
+77-->[com.google.firebase:firebase-iid:20.0.0] /Users/rajanbanerjee/.gradle/caches/transforms-2/files-2.1/379e6fd7b9f7b75d565517c985b1d207/firebase-iid-20.0.0/AndroidManifest.xml:32:13-34:85
+78                android:name="com.google.firebase.components:com.google.firebase.iid.Registrar"
+78-->[com.google.firebase:firebase-iid:20.0.0] /Users/rajanbanerjee/.gradle/caches/transforms-2/files-2.1/379e6fd7b9f7b75d565517c985b1d207/firebase-iid-20.0.0/AndroidManifest.xml:33:17-96
+79                android:value="com.google.firebase.components.ComponentRegistrar" />
+79-->[com.google.firebase:firebase-iid:20.0.0] /Users/rajanbanerjee/.gradle/caches/transforms-2/files-2.1/379e6fd7b9f7b75d565517c985b1d207/firebase-iid-20.0.0/AndroidManifest.xml:34:17-82
+80        </service>
+81
+82        <receiver
+82-->[com.google.firebase:firebase-analytics:16.0.4] /Users/rajanbanerjee/.gradle/caches/transforms-2/files-2.1/3dde28301494f86451d3a5b2b41a2eeb/jetified-firebase-analytics-16.0.4/AndroidManifest.xml:29:9-33:20
+83            android:name="com.google.android.gms.measurement.AppMeasurementReceiver"
+83-->[com.google.firebase:firebase-analytics:16.0.4] /Users/rajanbanerjee/.gradle/caches/transforms-2/files-2.1/3dde28301494f86451d3a5b2b41a2eeb/jetified-firebase-analytics-16.0.4/AndroidManifest.xml:30:13-85
+84            android:enabled="true"
+84-->[com.google.firebase:firebase-analytics:16.0.4] /Users/rajanbanerjee/.gradle/caches/transforms-2/files-2.1/3dde28301494f86451d3a5b2b41a2eeb/jetified-firebase-analytics-16.0.4/AndroidManifest.xml:31:13-35
+85            android:exported="false" >
+85-->[com.google.firebase:firebase-analytics:16.0.4] /Users/rajanbanerjee/.gradle/caches/transforms-2/files-2.1/3dde28301494f86451d3a5b2b41a2eeb/jetified-firebase-analytics-16.0.4/AndroidManifest.xml:32:13-37
+86        </receiver>
+87        <receiver
+87-->[com.google.firebase:firebase-analytics:16.0.4] /Users/rajanbanerjee/.gradle/caches/transforms-2/files-2.1/3dde28301494f86451d3a5b2b41a2eeb/jetified-firebase-analytics-16.0.4/AndroidManifest.xml:34:9-42:20
+88            android:name="com.google.android.gms.measurement.AppMeasurementInstallReferrerReceiver"
+88-->[com.google.firebase:firebase-analytics:16.0.4] /Users/rajanbanerjee/.gradle/caches/transforms-2/files-2.1/3dde28301494f86451d3a5b2b41a2eeb/jetified-firebase-analytics-16.0.4/AndroidManifest.xml:35:13-100
+89            android:enabled="true"
+89-->[com.google.firebase:firebase-analytics:16.0.4] /Users/rajanbanerjee/.gradle/caches/transforms-2/files-2.1/3dde28301494f86451d3a5b2b41a2eeb/jetified-firebase-analytics-16.0.4/AndroidManifest.xml:36:13-35
+90            android:exported="true"
+90-->[com.google.firebase:firebase-analytics:16.0.4] /Users/rajanbanerjee/.gradle/caches/transforms-2/files-2.1/3dde28301494f86451d3a5b2b41a2eeb/jetified-firebase-analytics-16.0.4/AndroidManifest.xml:37:13-36
+91            android:permission="android.permission.INSTALL_PACKAGES" >
+91-->[com.google.firebase:firebase-analytics:16.0.4] /Users/rajanbanerjee/.gradle/caches/transforms-2/files-2.1/3dde28301494f86451d3a5b2b41a2eeb/jetified-firebase-analytics-16.0.4/AndroidManifest.xml:38:13-69
+92            <intent-filter>
+92-->[com.google.firebase:firebase-analytics:16.0.4] /Users/rajanbanerjee/.gradle/caches/transforms-2/files-2.1/3dde28301494f86451d3a5b2b41a2eeb/jetified-firebase-analytics-16.0.4/AndroidManifest.xml:39:13-41:29
+93                <action android:name="com.android.vending.INSTALL_REFERRER" />
+93-->[com.google.firebase:firebase-analytics:16.0.4] /Users/rajanbanerjee/.gradle/caches/transforms-2/files-2.1/3dde28301494f86451d3a5b2b41a2eeb/jetified-firebase-analytics-16.0.4/AndroidManifest.xml:40:17-79
+93-->[com.google.firebase:firebase-analytics:16.0.4] /Users/rajanbanerjee/.gradle/caches/transforms-2/files-2.1/3dde28301494f86451d3a5b2b41a2eeb/jetified-firebase-analytics-16.0.4/AndroidManifest.xml:40:25-76
+94            </intent-filter>
+95        </receiver>
+96
+97        <service
+97-->[com.google.firebase:firebase-analytics:16.0.4] /Users/rajanbanerjee/.gradle/caches/transforms-2/files-2.1/3dde28301494f86451d3a5b2b41a2eeb/jetified-firebase-analytics-16.0.4/AndroidManifest.xml:44:9-47:40
+98            android:name="com.google.android.gms.measurement.AppMeasurementService"
+98-->[com.google.firebase:firebase-analytics:16.0.4] /Users/rajanbanerjee/.gradle/caches/transforms-2/files-2.1/3dde28301494f86451d3a5b2b41a2eeb/jetified-firebase-analytics-16.0.4/AndroidManifest.xml:45:13-84
+99            android:enabled="true"
+99-->[com.google.firebase:firebase-analytics:16.0.4] /Users/rajanbanerjee/.gradle/caches/transforms-2/files-2.1/3dde28301494f86451d3a5b2b41a2eeb/jetified-firebase-analytics-16.0.4/AndroidManifest.xml:46:13-35
+100            android:exported="false" />
+100-->[com.google.firebase:firebase-analytics:16.0.4] /Users/rajanbanerjee/.gradle/caches/transforms-2/files-2.1/3dde28301494f86451d3a5b2b41a2eeb/jetified-firebase-analytics-16.0.4/AndroidManifest.xml:47:13-37
+101        <service
+101-->[com.google.firebase:firebase-analytics:16.0.4] /Users/rajanbanerjee/.gradle/caches/transforms-2/files-2.1/3dde28301494f86451d3a5b2b41a2eeb/jetified-firebase-analytics-16.0.4/AndroidManifest.xml:48:9-52:72
+102            android:name="com.google.android.gms.measurement.AppMeasurementJobService"
+102-->[com.google.firebase:firebase-analytics:16.0.4] /Users/rajanbanerjee/.gradle/caches/transforms-2/files-2.1/3dde28301494f86451d3a5b2b41a2eeb/jetified-firebase-analytics-16.0.4/AndroidManifest.xml:49:13-87
+103            android:enabled="true"
+103-->[com.google.firebase:firebase-analytics:16.0.4] /Users/rajanbanerjee/.gradle/caches/transforms-2/files-2.1/3dde28301494f86451d3a5b2b41a2eeb/jetified-firebase-analytics-16.0.4/AndroidManifest.xml:50:13-35
+104            android:exported="false"
+104-->[com.google.firebase:firebase-analytics:16.0.4] /Users/rajanbanerjee/.gradle/caches/transforms-2/files-2.1/3dde28301494f86451d3a5b2b41a2eeb/jetified-firebase-analytics-16.0.4/AndroidManifest.xml:51:13-37
+105            android:permission="android.permission.BIND_JOB_SERVICE" />
+105-->[com.google.firebase:firebase-analytics:16.0.4] /Users/rajanbanerjee/.gradle/caches/transforms-2/files-2.1/3dde28301494f86451d3a5b2b41a2eeb/jetified-firebase-analytics-16.0.4/AndroidManifest.xml:52:13-69
+106
+107        <receiver
+107-->[com.google.firebase:firebase-iid:20.0.0] /Users/rajanbanerjee/.gradle/caches/transforms-2/files-2.1/379e6fd7b9f7b75d565517c985b1d207/firebase-iid-20.0.0/AndroidManifest.xml:37:9-44:20
+108            android:name="com.google.firebase.iid.FirebaseInstanceIdReceiver"
+108-->[com.google.firebase:firebase-iid:20.0.0] /Users/rajanbanerjee/.gradle/caches/transforms-2/files-2.1/379e6fd7b9f7b75d565517c985b1d207/firebase-iid-20.0.0/AndroidManifest.xml:38:13-78
+109            android:exported="true"
+109-->[com.google.firebase:firebase-iid:20.0.0] /Users/rajanbanerjee/.gradle/caches/transforms-2/files-2.1/379e6fd7b9f7b75d565517c985b1d207/firebase-iid-20.0.0/AndroidManifest.xml:39:13-36
+110            android:permission="com.google.android.c2dm.permission.SEND" >
+110-->[com.google.firebase:firebase-iid:20.0.0] /Users/rajanbanerjee/.gradle/caches/transforms-2/files-2.1/379e6fd7b9f7b75d565517c985b1d207/firebase-iid-20.0.0/AndroidManifest.xml:40:13-73
+111            <intent-filter>
+111-->[com.google.firebase:firebase-iid:20.0.0] /Users/rajanbanerjee/.gradle/caches/transforms-2/files-2.1/379e6fd7b9f7b75d565517c985b1d207/firebase-iid-20.0.0/AndroidManifest.xml:41:13-43:29
+112                <action android:name="com.google.android.c2dm.intent.RECEIVE" />
+112-->[com.google.firebase:firebase-iid:20.0.0] /Users/rajanbanerjee/.gradle/caches/transforms-2/files-2.1/379e6fd7b9f7b75d565517c985b1d207/firebase-iid-20.0.0/AndroidManifest.xml:42:17-81
+112-->[com.google.firebase:firebase-iid:20.0.0] /Users/rajanbanerjee/.gradle/caches/transforms-2/files-2.1/379e6fd7b9f7b75d565517c985b1d207/firebase-iid-20.0.0/AndroidManifest.xml:42:25-78
+113            </intent-filter>
+114        </receiver>
+115
+116        <provider
+116-->[com.google.firebase:firebase-common:19.0.0] /Users/rajanbanerjee/.gradle/caches/transforms-2/files-2.1/4221b05f225ae7eb99b16f60aa675266/firebase-common-19.0.0/AndroidManifest.xml:12:9-16:39
+117            android:name="com.google.firebase.provider.FirebaseInitProvider"
+117-->[com.google.firebase:firebase-common:19.0.0] /Users/rajanbanerjee/.gradle/caches/transforms-2/files-2.1/4221b05f225ae7eb99b16f60aa675266/firebase-common-19.0.0/AndroidManifest.xml:13:13-77
+118            android:authorities="com.example.testappsyncmanager.firebaseinitprovider"
+118-->[com.google.firebase:firebase-common:19.0.0] /Users/rajanbanerjee/.gradle/caches/transforms-2/files-2.1/4221b05f225ae7eb99b16f60aa675266/firebase-common-19.0.0/AndroidManifest.xml:14:13-72
+119            android:exported="false"
+119-->[com.google.firebase:firebase-common:19.0.0] /Users/rajanbanerjee/.gradle/caches/transforms-2/files-2.1/4221b05f225ae7eb99b16f60aa675266/firebase-common-19.0.0/AndroidManifest.xml:15:13-37
+120            android:initOrder="100" />
+120-->[com.google.firebase:firebase-common:19.0.0] /Users/rajanbanerjee/.gradle/caches/transforms-2/files-2.1/4221b05f225ae7eb99b16f60aa675266/firebase-common-19.0.0/AndroidManifest.xml:16:13-36
+121
+122        <activity
+122-->[com.google.android.gms:play-services-base:17.0.0] /Users/rajanbanerjee/.gradle/caches/transforms-2/files-2.1/9aa43e4d859846d255e0c2916968f517/play-services-base-17.0.0/AndroidManifest.xml:23:9-26:75
+123            android:name="com.google.android.gms.common.api.GoogleApiActivity"
+123-->[com.google.android.gms:play-services-base:17.0.0] /Users/rajanbanerjee/.gradle/caches/transforms-2/files-2.1/9aa43e4d859846d255e0c2916968f517/play-services-base-17.0.0/AndroidManifest.xml:24:13-79
+124            android:exported="false"
+124-->[com.google.android.gms:play-services-base:17.0.0] /Users/rajanbanerjee/.gradle/caches/transforms-2/files-2.1/9aa43e4d859846d255e0c2916968f517/play-services-base-17.0.0/AndroidManifest.xml:25:13-37
+125            android:theme="@android:style/Theme.Translucent.NoTitleBar" />
+125-->[com.google.android.gms:play-services-base:17.0.0] /Users/rajanbanerjee/.gradle/caches/transforms-2/files-2.1/9aa43e4d859846d255e0c2916968f517/play-services-base-17.0.0/AndroidManifest.xml:26:13-72
+126
+127        <meta-data
+127-->[com.google.android.gms:play-services-basement:17.0.0] /Users/rajanbanerjee/.gradle/caches/transforms-2/files-2.1/aef5841b496e99e5ef46564cb468ea38/jetified-play-services-basement-17.0.0/AndroidManifest.xml:23:9-25:69
+128            android:name="com.google.android.gms.version"
+128-->[com.google.android.gms:play-services-basement:17.0.0] /Users/rajanbanerjee/.gradle/caches/transforms-2/files-2.1/aef5841b496e99e5ef46564cb468ea38/jetified-play-services-basement-17.0.0/AndroidManifest.xml:24:13-58
+129            android:value="@integer/google_play_services_version" />
+129-->[com.google.android.gms:play-services-basement:17.0.0] /Users/rajanbanerjee/.gradle/caches/transforms-2/files-2.1/aef5841b496e99e5ef46564cb468ea38/jetified-play-services-basement-17.0.0/AndroidManifest.xml:25:13-66
+130    </application>
+131
+132</manifest>
